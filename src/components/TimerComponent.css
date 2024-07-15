@@ -1,0 +1,77 @@
+.stop-watch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #30e5fd92;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 20px 20px 0 rgba(84, 68, 68, 0.23);
+    max-width: 300px;
+    margin: auto;
+    opacity: 0.65;
+  }
+  
+  .stopwatch-card-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+  }
+  
+  .stopwatch-card-header img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .timer-heading {
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .timer-display {
+    font-size: 48px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom:20px;
+  }
+  
+  .button-container {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .button-container button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    transition: background-color 0.3s;
+  }
+  
+  .start-button {
+    background-color: #4caf50;
+  }
+  
+  .start-button:hover {
+    background-color: #45a049;
+  }
+  
+  .stop-button {
+    background-color: #f44336;
+  }
+  
+  .stop-button:hover {
+    background-color: #e53935;
+  }
+  
+  .reset-button {
+    background-color: #ff9800;
+  }
+  
+  .reset-button:hover {
+    background-color: #fb8c00;
+  }
+  
